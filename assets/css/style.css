@@ -44,16 +44,9 @@ header nav ul li a:hover {
     background: blue;
 }
 .hero {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
     background-image: url("../images/blue-galaxy-watercolor-background.jpg");
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content:end;
-    flex-wrap: wrap;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position: 100%; 
     height: 200px;
@@ -74,20 +67,19 @@ header nav ul li a:hover {
     display: flex;
     padding: 10px 0 10px 10px;
     flex-wrap: wrap;
-    width: 100%;
 }
 .jj5 {
     width: 10%;
     padding: 10px 10px;
+    border-right: 3px solid blue;
 }
 .jj5 h2 {
-    border-right: 3px solid blue;
     text-align:right;
     padding: 0px 10px;
 }
 .jj6 {
-    flex: 2;
     padding: 10px 10px;
+    flex: 1;
 }
 /*.jj6 p {
     width: 50%;
@@ -95,3 +87,36 @@ header nav ul li a:hover {
     padding-left:10px
 }*/
 
+.jj6img img {
+    height: 200px;
+    width: 250px;
+    padding: 10px 10px;
+}
+.jj7 {
+    display: flex;
+    padding: 10px 0 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.jj8 {
+    background-image: url("../images/blue-galaxy-watercolor-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%; 
+    height: 200px;
+    width: 48%;
+    border: 3px solid blue;
+    margin: 10px;
+    position: relative;
+}
+.hundred {
+    width: 100%;
+    height: 400px;
+}
+.jj9 {
+    position: absolute;
+    bottom: 10px;
+    background-color: blue;
+    padding: 10px 5px;
+}
