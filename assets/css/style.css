@@ -148,6 +148,7 @@ header nav ul li a:hover {
     background-image: url("");
 
 }
+/*contact section*/
 .contact-info {
     
     font-size: 20px;
@@ -162,6 +163,9 @@ header nav ul li a:hover {
     
      
 }
+
+/*Link for Porjects*/
+
 .project-main a {
     position: absolute;
     width: 100%;
@@ -172,6 +176,8 @@ header nav ul li a:hover {
     z-index: 10;
     opacity: 0;
 }
+/*hover functions*/
+
 .project-main:hover {
     filter: brightness(120%);
 
@@ -181,6 +187,8 @@ header nav ul li a:hover {
     border-bottom: 3px solid blue;
     text-align: center;
 }
+
+/*Media Queries for screen resizing*/
 
 @media screen and (max-width: 1400px) {
         .project-main {
