@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -15,6 +16,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 25px 0;
+    margin-right: 100px;
 }
 header h1{
     background-color: blue;
@@ -60,22 +62,24 @@ header nav ul li a:hover {
     position: absolute;
     right: 10px;
     bottom: 10px;
+    margin-right: 90px;
 
     
 }
 .section {
     display: flex;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 0px;
     flex-wrap: wrap;
+    margin: 0 100px 0 0px;
 }
 .jj5 {
-    width: 10%;
+    width: 18%;
     padding: 10px 10px;
     border-right: 3px solid blue;
 }
 .jj5 h2 {
     text-align:right;
-    padding: 0px 10px;
+    padding: 0px 10px 0px 0px;
 }
 .jj6 {
     padding: 10px 10px;
@@ -86,6 +90,7 @@ header nav ul li a:hover {
     height: 200px;
     width: 250px;
     padding: 10px 10px;
+    margin-left: 20px;
 }
 .jj7 {
     display: flex;
@@ -102,6 +107,7 @@ header nav ul li a:hover {
     background-size: cover;
     background-position: left;
     background-attachment: scroll;
+    border-radius: 15px;
 }
 .hundred {
     width: 100%;
@@ -143,16 +149,18 @@ header nav ul li a:hover {
 
 }
 .contact-info {
-    position: absolute;
-    bottom: 40%;
-    left: 35%;
-    border-bottom: 3px solid blue;
-    font-size: 24px;
+    
+    font-size: 20px;
+    flex: 1;
+    display: inline-block;
+    text-align: center;
     
 }
 .contact-info a {
     text-decoration: none; 
-    color: inherit; 
+    color: inherit;
+    
+     
 }
 .jj8 a {
     position: absolute;
@@ -166,4 +174,56 @@ header nav ul li a:hover {
 }
 .jj8:hover {
     filter: brightness(120%);
+
+}
+.jj10 {
+    display: inline-block;
+    border-bottom: 3px solid blue;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+        .jj8 {
+            width: 30%;
+    }
+    .hundred {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .section{
+        justify-content: center;
+        text-align: center;
+        margin: 0px 20px;
+    }
+    .jj5 {
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+    .jj5 h2 {
+        text-align: center;
+        border-bottom: 3px solid blue;
+    }
+    .header h1 {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+    .header {
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 680px) {
+    .jj8 {
+        width: 25%;
+}
+.hundred {
+    width: 100%;
+    height: 400px;
+}
 }
