@@ -127,11 +127,11 @@ header nav ul li a:hover {
 }
 .project-1-img {
     background-color:darkmagenta;
-    background-image: url("../images/Run-buddy.png");
+    background-image: url("../images/responsible-drinker.png");
 }
 .project-2-img {
     background-color:brown;
-    background-image: url("");
+    background-image: url("../images/Run-buddy.png") ;
 }
 .project-3-img {
     background-color:darkslateblue;
